@@ -19,13 +19,13 @@ public class changeModel : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if(Input.GetKeyDown (KeyCode.M) ) {
+		if(Input.GetKeyDown (KeyCode.C) ) {
 
 			original.SetActive (false);
 			metro.SetActive (true);
 			dollar.SetActive (false);
 
-		} else if (Input.GetKeyDown ( KeyCode.E )) {
+		} else if (Input.GetKeyDown ( KeyCode.M )) {
 			original.SetActive (false);
 			metro.SetActive (false);
 			dollar.SetActive (true);

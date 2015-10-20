@@ -24,7 +24,7 @@ public class collideWithGates : MonoBehaviour {
 	}
 
 	void Update() {
-		if (Input.GetKeyDown(KeyCode.M)) {
+		if (Input.GetKeyDown(KeyCode.C)) {
 			//turnstileCollider.isTrigger = true;
 			turnstile.GetComponent<BoxCollider>().enabled = false;
 			//turnstileModel.GetComponent<Material>().color = Color.green;

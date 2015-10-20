@@ -15,9 +15,9 @@ public class rigidBody : MonoBehaviour {
 	// Update is called once per frame input/graphics
 	void Update () {
 
-		float jump = Input.GetButtonDown ("Jump") ? .5f: 0f;
+		float jump = 0;
 		inputVector = new Vector3 (Input.GetAxis ("Horizontal"), jump, Input.GetAxis ("Vertical" ));
-		Debug.Log ( "input: " + inputVector );
+		//Debug.Log ( "input: " + inputVector );
 		float mouseX = Input.GetAxis ("Mouse X");
 		float mouseY = Input.GetAxis ("Mouse Y");
 		transform.Rotate (0f, mouseX, 0f);
